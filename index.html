@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#f7f9fd]">
+    <header class="bg-blue-600 text-white py-3">
+      <div class="mx-auto w-full max-w-5xl">
+        <nav
+          class="grid grid-cols-2 md:grid-cols-2 justify-evenly items-center px-3"
+        >
+          <div class="text-2xl justify-start">
+            <h1 class="font-bold">Code Academy</h1>
+          </div>
+          <ul class="flex gap-5 justify-end max-md:hidden">
+            <li>
+              <p>Home</p>
+            </li>
+            <li><p>Courses</p></li>
+            <li><p>About</p></li>
+          </ul>
+          <ul class="md:hidden flex justify-end relative">
+            <li class="absolute bg-amber-50 w-6 h-0.5 top-0"></li>
+            <li class="absolute bg-amber-50 w-6 h-0.5 top-2"></li>
+            <li class="absolute bg-amber-50 w-6 h-0.5 bottom-1.5"></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="bg-[url('canada.jpeg')] bg-center text-center py-14 md:py-15">
+        <h2 class="my-2.5 text-5xl font-bold">Learn Web Development</h2>
+        <p class="text-2xl my-2.5">
+          Build your skills in HTML, CSS, JavaScript and TailwindCSS.
+        </p>
+        <button
+          class="w-55 bg-blue-600 text-white py-2.5 my-2.5 rounded-2xl relative"
+          type="button"
+        >
+          Explore Courses
+          <span
+            class="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-3 bg-[url('./arrow-.svg')] bg-no-repeat bg-center bg-contain"
+          ></span>
+        </button>
+      </div>
+
+      <section class="py-2.5">
+        <div class="mx-auto w-full max-w-5xl">
+          <div class="tit__main">
+            <h2 class="py-1.5 text-center my-4 text-4xl font-bold">
+              Our Courses
+            </h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-5 max-md:px-3">
+            <article
+              class="max-md:flex max-md:gap-3.5 bg-[#ffffff] px-8 py-3 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
+            >
+              <div class="w-11.25 h-11.25">
+                <img class="w-full" src="./html.svg.webp" />
+              </div>
+              <div class="">
+                <h3 class="text-xl font-bold">HTML</h3>
+                <p>Learn the structure of web pages.</p>
+                <a
+                  class="w-40 bg-blue-600 text-white py-2.5 px-5 rounded-xl my-2.5 inline-block relative"
+                  href="#"
+                  >Learn More
+                  <span
+                    class="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-3 bg-[url('./arrow-.svg')] bg-no-repeat bg-center bg-contain"
+                  ></span>
+                </a>
+              </div>
+            </article>
+            <article
+              class="max-md:flex max-md:gap-3.5 bg-[#ffffff] px-8 py-3 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
+            >
+              <div class="w-11.25 h-11.25">
+                <img class="w-full" src="./css.svg" />
+              </div>
+              <div class="">
+                <h3 class="text-xl font-bold">CSS</h3>
+                <p>Learn how to style websites.</p>
+                <a
+                  class="w-40 bg-blue-600 text-white py-2.5 px-5 rounded-xl my-2.5 inline-block relative"
+                  href="#"
+                  >Learn More
+                  <span
+                    class="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-3 bg-[url('./arrow-.svg')] bg-no-repeat bg-center bg-contain"
+                  ></span
+                ></a>
+              </div>
+            </article>
+            <article
+              class="max-md:flex max-md:gap-3.5 bg-[#ffffff] px-8 py-3 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
+            >
+              <div class="w-11.25 h-11.25">
+                <img class="w-full" src="./js.svg.webp" />
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">JavaScript</h3>
+                <p>Make websites interaractive.</p>
+                <a
+                  class="w-40 bg-blue-600 text-white py-2.5 px-5 rounded-xl my-2.5 inline-block relative"
+                  href="#"
+                  >Learn More
+                  <span
+                    class="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-3 bg-[url('./arrow-.svg')] bg-no-repeat bg-center bg-contain"
+                  ></span
+                ></a>
+              </div>
+            </article>
+            <article
+              class="max-md:flex max-md:gap-3.5 bg-[#ffffff] px-8 py-3 rounded-2xl shadow-[0_4px_10px_rgba(0,0,0,0.2)]"
+            >
+              <div class="w-11.25 h-11.25">
+                <img class="w-full" src="./tail.svg.webp" />
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">TailWind CSS</h3>
+                <p>Build moden responsive designs.</p>
+                <a
+                  class="w-40 bg-blue-600 text-white py-2.5 px-5 rounded-xl my-2.5 inline-block relative"
+                  href="#"
+                  >Learn More
+                  <span
+                    class="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-3 bg-[url('./arrow-.svg')] bg-no-repeat bg-center bg-contain"
+                  ></span
+                ></a>
+              </div>
+            </article>
+          </div>
+          <div class="my-8 bg-[#dfebfd] text-center py-6">
+            <h2 class="text-2xl font-bold my-2">About Code Academy</h2>
+            <p>
+              We help beginners web delopment through practical, hands-on
+              courses.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
